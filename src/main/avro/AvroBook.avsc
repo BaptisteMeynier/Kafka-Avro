@@ -1,0 +1,10 @@
+{"namespace": "com.meynier.kafka.avro.model",
+ "type": "record",
+ "name": "AvroBook",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "publish_date",  "type": ["int"]},
+     {"name": "price",  "type": ["float"]},
+     {"name": "author", "type": ["com.meynier.kafka.avro.model.AvroAuthor", "null"]}
+ ]
+}

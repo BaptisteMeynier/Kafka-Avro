@@ -1,0 +1,8 @@
+{"namespace": "com.meynier.kafka.avro.model",
+ "type": "record",
+ "name": "AvroBookShop",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "books",  "type": [null,{"type : "array" , "items" : "com.meynier.kafka.avro.model.AvroBook"}]}
+ ]
+}
