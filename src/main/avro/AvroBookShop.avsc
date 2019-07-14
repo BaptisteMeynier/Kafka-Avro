@@ -3,6 +3,6 @@
  "name": "AvroBookShop",
  "fields": [
      {"name": "name", "type": "string"},
-     {"name": "books",  "type": [null,{"type : "array" , "items" : "com.meynier.kafka.avro.model.AvroBook"}]}
+     {"name": "books",  "type": [{"type" : "array" , "items" : "com.meynier.kafka.avro.model.AvroBook"}]}
  ]
 }

@@ -1,9 +1,11 @@
-{"namespace": "com.meynier.kafka.avro.model",
+{
  "type": "record",
  "name": "AvroAuthor",
+ "namespace": "com.meynier.kafka.avro.model",
+ "doc":"A book author",
  "fields": [
      {"name": "first_name", "type": "string"},
      {"name": "family_name", "type": "string"},
-     {"name": "birth_date",  "type": ["int"]}
+     {"name": "birth_date",  "type": "int"}
  ]
 }
