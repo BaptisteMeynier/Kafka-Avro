@@ -12,3 +12,4 @@ ________________________________
 ##### Documentation
 https://avro.apache.org/docs/1.8.0/spec.html#Date   
 https://www.baeldung.com/java-apache-avro    
+https://github.com/confluentinc/examples/blob/5.2.2-post/clients/avro/pom.xml
